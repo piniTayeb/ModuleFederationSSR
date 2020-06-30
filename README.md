@@ -1,5 +1,8 @@
 # ModuleFederationSSR
 Module Federation Server Side Rendering example :)
+
+Remote server exposes "SomeComponent", and Host server consume and render it in Server Side.
+
 ## Install
  npm i
 ## Run
