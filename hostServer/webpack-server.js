@@ -15,7 +15,7 @@ var serverConfig = {
     output: {
         path: path.resolve(__dirname, 'public/server'),
         filename: 'server.js',
-        publicPath: '/website1',
+        publicPath: '/',
     },
     externals: ["enhanced-resolve"],
     optimization: {
@@ -34,7 +34,6 @@ var serverConfig = {
                     loader: 'babel-loader',
                     options: {
                         presets: ['@babel/preset-env', '@babel/preset-react'],
-                        plugins: ["@loadable/babel-plugin",  ["@babel/plugin-proposal-decorators", { "legacy": true }], "@babel/plugin-proposal-class-properties"]
                     }
                 }
             },
