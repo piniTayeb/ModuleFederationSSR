@@ -1,2 +1,2 @@
 # ModuleFederationSSR
-Module Federation Server Side Rendering example
+Module Federation Server Side Rendering example :)
