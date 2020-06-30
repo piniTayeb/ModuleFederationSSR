@@ -1,7 +1,7 @@
 # ModuleFederationSSR
 Module Federation Server Side Rendering example :)
 ## Install
-npm i
+ npm i
 ## Run
 1. npm run buildHost
 2. npm run startHost
