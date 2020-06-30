@@ -3,6 +3,14 @@ Module Federation Server Side Rendering example :)
 
 Remote server exposes "SomeComponent", and Host server consume and render it in Server Side.
 
+This line creates an error in run time:
+
+`import SomeComponent from "website2/SomeComponent";`
+
+(hostServer/LocalComponent.js)
+
+
+
 ## Install
  npm i
 ## Run
