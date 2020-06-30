@@ -1,0 +1,42 @@
+{
+  "name": "module-federation-ssr",
+  "version": "1.0.0",
+  "scripts": {
+    "buildHost": "webpack --config=hostServer/webpack-server.js -w",
+    "startHost": "nodemon hostServer/public/server/server.js",
+    "buildRemote": "webpack --config=remoteServer/webpack-server.js -w",
+    "startRemote": "nodemon remoteServer/public/server/server.js"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Jack Herrington",
+    "email": "jherr@pobox.com"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-proposal-decorators": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "7.9.4",
+    "@loadable/babel-plugin": "^5.12.0",
+    "@loadable/webpack-plugin": "^5.12.0",
+    "babel-loader": "8.1.0",
+    "css-loader": "^3.5.3",
+    "html-webpack-plugin": "git://github.com/ScriptedAlchemy/html-webpack-plugin#master",
+    "mini-css-extract-plugin": "^0.9.0",
+    "nodemon": "^2.0.4",
+    "style-loader": "1.2.1",
+    "webpack": "5.0.0-beta.18",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.11.0",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "@loadable/babel-plugin": "^5.12.0",
+    "@loadable/component": "^5.12.0",
+    "@loadable/server": "^5.12.0",
+    "@loadable/webpack-plugin": "^5.12.0"
+  }
+}
