@@ -9,4 +9,4 @@ Remote server exposes "SharedComponent", and Host server consume and render it i
  
  http://localhost:3000/ - Host Server
  
- http://localhost:3000/ - Remote Server
+ http://localhost:3001/ - Remote Server
