@@ -6,5 +6,10 @@ and Host server consume and render it in Server Side.
 
 Changing "SharedComponent" will affect both servers, without rebuilding Host server 
 
- npm i
+ 
+ 
  npm start
+ 
+ http://localhost:3000/ - Host Server
+ 
+ http://localhost:3001/ - Remote Server
