@@ -1,16 +1,9 @@
 var path = require('path')
-var webpack = require('webpack')
 const ModuleFederationPlugin = require("webpack").container
     .ModuleFederationPlugin;
 
-
-console.log('path resolve: ', path.resolve(
-    __dirname,
-    "../remoteServer/public/server/container.js"
-))
-
 var serverConfig = {
-    entry: path.resolve(__dirname, 'server.js'),
+    entry: ["@babel/polyfill", path.resolve(__dirname, 'server.js')],
     target: 'node',
     output: {
         path: path.resolve(__dirname, 'public/server'),

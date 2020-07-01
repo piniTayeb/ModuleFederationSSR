@@ -42,7 +42,7 @@ var serverConfig = {
             filename: "container.js",
 
             exposes: {
-                "./SomeComponent": "./remoteServer/SomeComponent",
+                "./SharedComponent": "./remoteServer/SharedComponent",
             },
             //shared: ["react", "react-dom"],
         }),
